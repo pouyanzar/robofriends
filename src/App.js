@@ -3,7 +3,7 @@ import SearchBox from "./components/SearchBox";
 import Scroll from "./components/Scroll";
 import { useEffect } from "react";
 import { connect } from "react-redux";
-import { requestRobots, setSearchField } from "./actions";
+import { requestRobots, setSearchField } from "../src/containers/actions";
 import "./App.css";
 
 const mapStateToProps = (state) => {

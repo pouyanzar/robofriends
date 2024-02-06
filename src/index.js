@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware, combineReducers } from "redux";
 import thunkMiddleware from "redux-thunk";
 import { createLogger } from "redux-logger";
-import { searchRobots, requestRobots } from "../src/containers/reducers";
+import { searchRobots, requestRobots } from "./reducers/reducers";
 
 const logger = createLogger();
 const rootReducer = combineReducers({ searchRobots, requestRobots });

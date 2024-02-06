@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# RoboFriends - React Redux Robot Search Engine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to RoboFriends, a search engine built with React and Redux that allows users to find robots by their names. This project is designed to showcase the integration of React, Redux, and Tachyons for building dynamic and responsive user interfaces.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Search Functionality:** Users can search for robots by typing their names into the search bar.
+- **Dynamic Rendering:** React and Redux dynamically render the robot cards based on the search query.
+- **Responsive Design:** Tachyons CSS framework is used for responsive design, ensuring that the application works well across different devices and screen sizes.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with RoboFriends, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/pouyanzar/robofriends.git
+   cd robofriends
+   ```
 
-### `npm test`
+2. **Install Dependencies:**
+   ```
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Start the Application:**
+   ```
+   npm start
+   ```
 
-### `npm run build`
+4. **Access the Application:**
+   Open your browser and navigate to `http://localhost:3000` to use the RoboFriends search engine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project structure is organized as follows:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **src:** Contains the source code for the React application.
+  - **components:** React components for different parts of the application.
+  - **actions:** Redux action creators.
+  - **reducers:** Redux reducers.
+  - **constants:** Constants used in the application.
 
-### `npm run eject`
+## Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React:** Front-end library for building user interfaces.
+- **Redux:** State management library for JavaScript applications.
+- **Tachyons:** CSS framework for creating fast-loading, responsive web interfaces.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgments
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Special thanks to the creators of React, Redux, and Tachyons.
+- Inspired by the love for robots!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy searching! 🤖
